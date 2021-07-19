@@ -9,6 +9,7 @@ img:hover {
     padding: 5px;
     width: 150px;
     filter: grayscale(100%);
+    border: red;
   }
   #ul1{
     color: red;
