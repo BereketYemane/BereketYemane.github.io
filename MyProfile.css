@@ -1,0 +1,19 @@
+
+img:hover {
+    box-shadow: 0 0 2px 2px rgba(6, 64, 83, 0.5);
+    /* transform: scaleX(-1); */
+  }
+  img {
+    border: 1px solid hsl(256, 40%, 79%);
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+    filter: grayscale(100%);
+  }
+  #ul1{
+    color: red;
+  }
+  body {
+    background-color: lightblue;
+  }
+
