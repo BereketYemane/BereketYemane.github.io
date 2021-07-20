@@ -9,9 +9,16 @@ img:hover {
     padding: 5px;
     width: 150px;
     filter: grayscale(100%);
-    border: red;
   }
-  #ul1{
-    color: red;
+  img{
+    border-radius: 20px;
   }
+ ul{
+   list-style-type:circle;
+   font-size: 100%;
+ }
+ body{
+   background-color: rgba(164, 221, 235, 0.5);
+ }
+
   
