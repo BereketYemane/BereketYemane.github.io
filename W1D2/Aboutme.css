@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(164, 221, 235, 0.5);
+    padding-left: 15px;
+    line-height: 1;
+}
+h1,h2{
+    color: green;
+}
+p{
+    font-family:Arial,"Arial Black",Verdana,"Trebuchet Ms",Georgia, 'Times New Roman';
+    font-size: 1.25em;
+}
+p::first-letter{
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;   
+}
+
+.abbreviations{
+    color:tomato;
+    font-weight: bold;
+}
+img{
+    border: 1px solid hsl(256, 40%, 79%);
+    border-radius: 20px;
+    padding: 5px;
+    width: 80%;
+}
+.moodColumn{
+    float: left;
+    width:40%;
+    pad: 10px;
+}
+
+#mood::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+ul,dl{
+    font-size: 1.25em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
