@@ -20,7 +20,7 @@ p::first-letter{
     color:tomato;
     font-weight: bold;
 }
-img{
+.moodImage{
     border: 1px solid hsl(256, 40%, 79%);
     border-radius: 20px;
     padding: 5px;
