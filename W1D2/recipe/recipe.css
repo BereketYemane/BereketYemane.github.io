@@ -52,13 +52,27 @@ ol span{
 pre{
     float: right;
 }
-.bottom{
+
+.bottomColumn{
     float: right;
-    margin-right: 0px;
-   display: block;
+    border-bottom: none;
 }
+.bottomRow{
+    border-bottom: none;
+    margin-right: 37px;
+}
+.bottomRow::before{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 ul li {
     list-style-image: url("pie_icon.gif");
+}
+#bottom{
+    border-bottom: none;
 }
 
 
