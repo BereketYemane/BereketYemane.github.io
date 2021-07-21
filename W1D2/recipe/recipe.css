@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia,Gramond,serif;
+}
+h1{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial,sans-serif;
+    text-align: left;
+    font-size: 18pt;
+}
+h1#mainHeader {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial,sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div{
+    border-bottom: 2px solid #888686;
+}
+
+a{
+    color: #A4A400;
+    display: block;
+}
+
+p span{
+    display: block;
+}
+
+ol span{
+    font-weight: bold;
+}
+.comment{
+    font-style: italic;
+    margin-left: 40px;
+    border-bottom:none;
+    background-color: #FFFFA8;
+}
