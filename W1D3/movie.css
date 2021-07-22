@@ -1,11 +1,19 @@
+body{
+    background-image:url("Images/background.png");
+}
 #container{
     background-image:url("Images/background.png");
     font-size: 8pt;
     font-family: Verdana,Tahoma,sans-serif;
+
+
+    /* border: 3px solid red; */
+    /* min-height: 100%; */
 }
 #banner{
     background-image: url("Images/bannerbg.png");
     text-align: center;
+
 }
 h1{
     text-align: center;
@@ -15,6 +23,12 @@ h1{
     text-shadow: 3px 3px#999999;
 }
 
+
+
+
+
+
+
 #content{
    
     width: 800px;
@@ -22,6 +36,7 @@ h1{
     border: 4px solid gray;
     border-radius: 20px;
     overflow: hidden;
+    /* border: 3px solid red; */
 }
 
 #generalOverview{
@@ -61,6 +76,7 @@ ul {
     margin-right: 2%;
     float: left;
     font-size: 8pt;
+    margin-left: 6px;
 }
 .leftqoute{
     background-color: #E8DC9B;
@@ -88,4 +104,37 @@ ul {
 }
 
 
+
+/* 
+#lastpara{
+    margin-top: 38px;
+    padding-bottom: 0px; 
+    background-color: #A2B964;
+    background-color: red;
+    text-align: center;
+    float: left;
+
+
+    width: 68%; 
+    width: 100%;
+    height: 100px; 
+} */
+
+/* #lastpara::after{
+    content:"";
+    clear: both;
+    display: inline-block;
+} */
+
+#validator{
+    float: right;
+}
+/* #validator::before{
+    content: "";
+    clear: both;
+} */
+
+span{
+    font-style: italic;
+}
 
