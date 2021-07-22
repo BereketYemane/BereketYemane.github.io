@@ -2,7 +2,7 @@ body{
     background-image:url("Images/background.png");
 }
 #container{
-    background-image:url("Images/background.png");
+    /* background-image:url("Images/background.png"); */
     font-size: 8pt;
     font-family: Verdana,Tahoma,sans-serif;
 
@@ -70,7 +70,7 @@ ul {
 }
 
 
-#leftPart p{
+#leftPart{
     width: 33%;
     /* width: 250px; */
     margin-right: 2%;
