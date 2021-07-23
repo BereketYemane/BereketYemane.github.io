@@ -7,7 +7,6 @@ header {
 }
 .menu1 {
     color: white;
-    padding: 15px;
     font-size: 15px;
     border-right: 1px solid black;
     background-color: darkslategrey;
@@ -15,7 +14,6 @@ header {
 
 .menu2 {
     color: white;
-    padding: 15px;
     font-size: 15px;
     border-right: 1px solid black;
     background-color: darkslategrey;
@@ -23,7 +21,6 @@ header {
 
 .menu3 {
     color: white;
-    padding: 15px;
     font-size: 15px;
     border-right: 1px solid black;
     background-color: darkslategrey;
@@ -45,15 +42,16 @@ footer {
 
 .column1 {
     background-color: #9d9d9d;
-    height: 200px;
+    height: 250px;
 }
 
 .column2 {
     background-color: #bbbbbb;
-    height: 200px;
+    height: 250px;
 }
 
 .column3 {
     background-color: #d6d6d6;
-    height: 200px;
+    height: 250px;
+    
 }
