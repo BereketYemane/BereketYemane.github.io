@@ -1,0 +1,59 @@
+header {
+    background-color: rgb(176, 227, 243);
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.menu1 {
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border-right: 1px solid black;
+    background-color: darkslategrey;
+}
+
+.menu2 {
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border-right: 1px solid black;
+    background-color: darkslategrey;
+}
+
+.menu3 {
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border-right: 1px solid black;
+    background-color: darkslategrey;
+}
+
+.menu4 {
+    color: white;
+    border-right: 1px solid black;
+    background-color: darkslategrey;
+}
+
+
+footer {
+    color: white;
+    background-color: darkslategray;
+    padding: 25px;
+    font-weight: bold;
+}
+
+.column1 {
+    background-color: #9d9d9d;
+    height: 200px;
+}
+
+.column2 {
+    background-color: #bbbbbb;
+    height: 200px;
+}
+
+.column3 {
+    background-color: #d6d6d6;
+    height: 200px;
+}
