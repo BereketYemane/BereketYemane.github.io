@@ -1,6 +1,7 @@
 // Master function to put things in the html
 // All functions are tested using true and false conditions
 function masterFunction() {
+    document.body.style.background="#9c9b97";
     //1. max of two
     document.getElementById("max2_1").innerHTML = "Expected output of maxOfTwo(20, 10) is 20 ... " + testFunction(20, maxTwo(20, 10));
     document.getElementById("max2_2").innerHTML = "Expected output of maxOfTwo(20, 10) is 10 ... " + testFunction(10, maxTwo(20, 10));

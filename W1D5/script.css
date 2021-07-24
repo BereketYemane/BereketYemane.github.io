@@ -10,7 +10,7 @@
     box-shadow: 0 2px #999;
   }
   h1{
-      color: green;
+      color: darkslategray;
       font-style: italic;
       font-family: 'Times New Roman', Times, serif;
       /* padding: 10px; */
@@ -25,7 +25,7 @@
 .gridContainer{
     display: grid;
     grid-template-areas: 'item1 item2' 'item1 item2';
-    background-color: #9c9b97;
+    /* background-color: #9c9b97; */
     margin-top: 15px;
 }
 
