@@ -1,0 +1,39 @@
+.btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
+  }
+  h1{
+      color: green;
+      font-style: italic;
+      font-family: 'Times New Roman', Times, serif;
+      /* padding: 10px; */
+  }
+
+  h2{
+      font-family: 'Times New Roman', Times, serif;
+      color: darkslategray;
+      padding: 10px;
+  }
+ 
+.gridContainer{
+    display: grid;
+    grid-template-areas: 'item1 item2' 'item1 item2';
+    background-color: #9c9b97;
+    margin-top: 15px;
+}
+
+.grid-item1{
+    grid-area: item1;
+}
+.grid-item2{
+    
+    grid-area: item2;
+}
+ 
