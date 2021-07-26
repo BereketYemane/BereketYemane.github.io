@@ -1,0 +1,51 @@
+.container
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#text-area{
+	font-family: monospace;
+    font-size: 12pt;
+	width: 100%;
+    overflow-y: scroll;
+    height: 600px;
+    resize: none;
+}
+
+fieldset{
+     border: 5px solid black;
+     display: inline;
+}
+legend {
+   text-align: left;
+}
+article{
+    alignment-adjust: central;
+}
+button{
+    width: 47%;
+}
+body{
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    background-color:#CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+   
+}
+header{
+    font-size: 32pt;
+    font-weight: bold;
+    margin:0px;
+    
+}
+select{
+    width:98%;
+}
+#validate{
+    right:0px;
+    position: fixed;
+}

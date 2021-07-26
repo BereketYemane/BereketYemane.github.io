@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>CS472: ASCII Animation Viewer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="ascii.css" type="text/css" rel="stylesheet">
+	<script src="animations.js" type="text/javascript"></script>
+	<script src="ascii.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>CS472: ASCII Animation Viewer</header>
+	<div class="container">
+		<textarea id="text-area" cols="80" rows="20"></textarea>
+		<fieldset>
+			<legend>Play Controls:</legend>
+			<button id="start">Start</button>
+			<button disabled="disabled" id="stop">Stop</button>
+		</fieldset>
+
+		<fieldset>
+			<legend>Animation:</legend>
+			<select id="animation">
+				<option selected="selected" value="Blank">Blank</option>
+				<option value="Exercise">Exercise</option>
+				<option value="Juggler">Juggler</option>
+				<option value="Bike">Bike</option>
+				<option value="Dive">Dive</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Size:</legend>
+			<select id="fontsize">
+				<option value="7pt">Tiny</option>
+				<option value="10pt">Small</option>
+				<option value="12pt" selected="selected">Medium</option>
+				<option value="16pt">Large</option>
+				<option value="24pt">Extra Large</option>
+				<option value="32pt">XXL</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Speed:</legend>
+			<label><input id="turbo" type="checkbox">Turbo</label>
+		</fieldset>
+	</div>
+	<div id="validate">
+		<a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W1D6/ascii.html">
+            <img src="https://manalabs.org/img/w3c-html.png" alt="Validator">
+        </a>
+        <a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W1D6/ascii.css">
+            <img src="https://manalabs.org/img/w3c-css.png" alt="Validator">
+        </a><br>
+
+		<a href="http://mumstudents.org/jshint/check.php?uri=https://bereketyemane.github.io/W1D6/ascii.js">
+	<img src="jslint.png" alt="JavaScript Lint">
+		</a>
+			
+			<br>
+
+
+	</div>
+</body>
+
+</html>
