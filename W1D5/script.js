@@ -199,3 +199,18 @@ function Modify1(a){
 function Modify2(a,b){
     return a*b;
 }
+
+function earliestSpace(a,b,c){
+    var spaceA = a.indexOf(" ");
+    var spaceB = b.indexOf(" ");
+    var spaceC = c.indexOf(" ");
+    if(spaceA<spaceB && spaceA<spaceC){
+        return a;
+    }
+    else if(spaceB<spaceA && spaceB<spaceC){
+        return b;
+    }
+    else{
+        return c;
+    }
+}
