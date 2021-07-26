@@ -45,5 +45,12 @@ select{
 }
 #validate{
     right:0px;
+    bottom: 20px;
+    right: 5px;
     position: fixed;
+}
+
+#JHint{
+    height: 31px;
+    width: 88px;
 }

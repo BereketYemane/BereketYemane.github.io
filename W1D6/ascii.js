@@ -16,7 +16,7 @@ function start() {
     startButton.disabled = true;
 };
 
-function stop(time) {
+function stop() {
     stopButton.disabled = true;
     startButton.disabled = false;
     clearTimeout(timer);
@@ -58,5 +58,4 @@ window.onload = function () {
     animDdl.onchange = getFrames;
     sizeDdl.onchange = setSize;
     turboChk.onchange = turbo;
-
 }
