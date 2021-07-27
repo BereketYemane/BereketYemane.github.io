@@ -38,3 +38,6 @@ input[type='submit']{
     margin-top: 15px;
     margin-bottom: 35px;
 }
+#footer{
+    float: right;
+}

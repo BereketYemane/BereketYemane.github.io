@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Web form</title>
@@ -8,31 +8,38 @@
 </head>
 
 <body>
-    <form action="">
+    <form>
         <div id="top">
             <label>Email address</label><br />
-            <input type="email" id="email" pattern=".+@miu\.edu" title="anynumberofletters@miu.edu" placeholder="hi@miu.edu" required>
+            <input type="email" id="email" pattern=".+@miu\.edu" title="anynumberofletters@miu.edu"
+                placeholder="hi@miu.edu" required>
             <p>We'll never share your email with anyone else</p>
         </div>
 
         <div id="medium">
             <label>Password</label><br />
-            <input type="password" id="password" pattern="^(?=.{10,}$)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).*$" title="atleast 10 characters in length containing atleast 1 number, 1 uppercase and lowercase letter" minlength="10" required> 
-        </div> 
+            <input type="password" id="password" pattern="^(?=.{10,}$)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).*$"
+                title="atleast 10 characters in length containing atleast 1 number, 1 uppercase and lowercase letter"
+                minlength="10" required>
+        </div>
         <div id="bottom">
             <label>Enter a website URL</label><br />
-            <input type="text" id="text" placeholder="https://google.com" pattern="https?://.+" title="https:// or http:// followd by any number of characters" required><br/>
+            <input type="text" id="text" placeholder="https://google.com" pattern="https?://.+"
+                title="https:// or http:// followd by any number of characters" required><br />
         </div>
-            <input type="checkbox" id="check" name="check" required>
-            <label for="check">Check me out</label><br/>
-            <input type="submit" value="Submit">
-    </form>
-    <a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W2D1/webform.html">
-        <img src="https://manalabs.org/img/w3c-html.png" alt="Validator">
-    </a>
-    <a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W2D1/webform.css">
-        <img src="https://manalabs.org/img/w3c-css.png" alt="Validator">
-    </a>
+        <input type="checkbox" id="check" name="check" required>
+        <label for="check">Check me out</label><br />
+        <input type="submit" value="Submit">
+    </form><br />
+    <div id="footer">
+        <a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W2D1/webform.html">
+            <img src="https://manalabs.org/img/w3c-html.png" alt="Validator">
+        </a>
+        <a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W2D1/webform.css">
+            <img src="https://manalabs.org/img/w3c-css.png" alt="Validator">
+        </a>
+
+    </div>
 </body>
 
 </html>
