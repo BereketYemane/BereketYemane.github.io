@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    overflow-x: hidden;
+    color: rgb(77, 99, 121);
+    
+    }
+   /* The grid container */
+    .container {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'title title'
+    'row1column1 row1column2' 
+    'row2column1 row2column2'
+    'row3column1 row3column2'
+    '. footer'
+    ;
+    }
+    
+    .header{
+    grid-area: header;
+    position: relative;
+    display: flex;
+    background-color: dodgerblue;
+    }
+    .header1,.header2,.header3,.header4,.header5{
+    padding: 10px;
+    }
+    .header2,.header3{
+    border-right:2px solid wheat; 
+    padding-top: 20px;
+   }
+   .header1{
+    font-size: 30px;
+   }
+    
+   ul{
+    display: flex;
+    list-style-type: none;
+   }
+   /* Style of the menus links */
+    
+   li{
+    font-size: 20px;
+    color: white;
+    text-decoration: none; 
+   }
+   .header5{
+    position:absolute;
+    right: 0px;
+    border-right:2px solid dodgerblue; 
+    
+   }
+   .header4{
+    position:absolute;
+    right: 100px;
+    border-right:2px solid dodgerblue; 
+    padding-top: 20px;
+    
+   }
+   #headerbutton{
+    padding: 12px;
+    border-radius: 5px;
+    border-color: dodgerblue;
+    font-size: 16px;
+   }
+    .title{
+    grid-area: title;
+    font-size: 30px;
+    margin-left: 80px;
+    }
+    .row1column1{
+    grid-area: row1column1;
+    margin-left: 100px;
+    }
+    #rowstextbox{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border-color:aliceblue;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(77, 99, 121);
+    }
+    #Suppliedtextbox{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border-color:aliceblue;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(77, 99, 121);
+    }
+    #rowslabels{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .row1column2{
+    grid-area: row1column2;
+    margin-left: 100px;
+    }
+    .row2column1{
+    grid-area: row2column1;
+    margin-left: 100px;
+   }
+   .row2column2{
+    grid-area: row2column2;
+    margin-left: 100px;
+   }
+    
+   .row3column1{
+    grid-area: row3column1;
+    margin-left: 100px;
+   }
+   .row3column2{
+    grid-area: row3column2;
+    margin-left: 100px;
+   }
+    .footer{
+    grid-area: footer;
+    display: flex;
+    position: relative;
+    left: 175px;
+    padding: 15px;
+    
+    
+    }
+   #button1{
+    border-color: rgb(134, 128, 118);
+    border-radius: 5px;
+    margin-right: 50px;
+    padding: 12px;
+    background-color:white;
+    font-size: 20px;
+    color: rgb(134, 128, 118);
+    
+   }
+   #button2{
+    border-color: red;
+    border-radius: 5px;
+    margin-right: 50px;
+    padding: 12px;
+    background-color:white;
+    font-size: 20px;
+    color: red;
+    
+   }
+   #button3{
+    border-radius: 5px;
+    border-color:lightskyblue;
+    margin-right: 50px;
+    padding: 12px;
+    background-color:white;
+    font-size: 20px;
+    color: lightskyblue;
+    
+   }
+   #explanation{
+    color: lightslategrey;
+    font-size: 12px;
+   }
+   

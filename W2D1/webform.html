@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="webform.css">
+</head>
+
+<body>
+    <form action="">
+        <div id="top">
+            <label>Email address</label><br />
+            <input type="email" id="email" pattern=".+@miu\.edu" title="anynumberofletters@miu.edu" placeholder="hi@miu.edu" required>
+            <p>We'll never share your email with anyone else</p>
+        </div>
+
+        <div id="medium">
+            <label>Password</label><br />
+            <input type="password" id="password" pattern="^(?=.{10,}$)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).*$" title="atleast 10 characters in length containing atleast 1 number, 1 uppercase and lowercase letter" minlength="10" required> 
+        </div> 
+        <div id="bottom">
+            <label>Enter a website URL</label><br />
+            <input type="text" id="text" placeholder="https://google.com" pattern="https?://.+" title="https:// or http:// followd by any number of characters" required><br/>
+        </div>
+            <input type="checkbox" id="check" name="check" required>
+            <label for="check">Check me out</label><br/>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

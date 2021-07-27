@@ -1,0 +1,40 @@
+label {
+    /* display: block; */
+    font: .9rem 'Fira Sans', sans-serif;
+    font-size: 24px;
+}
+
+input[type='email'],input[type='password'],input[type='text']{
+width: 80%;
+padding: 15px;
+font-size: 20px;
+border-radius: 5px;
+border-color: #f3eded;
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+    border:none;
+}
+
+input[type='submit']{
+    color: white;
+    background:#007bff;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#top{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+#medium{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+#bottom{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
