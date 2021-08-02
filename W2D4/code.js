@@ -11,6 +11,7 @@ String.prototype.filter = function(arr){
 };
 console.log("This house is not nice!".filter('not'));
 
+
 //Number 2
 Array.prototype.bubbleSort= function(){
     let len = this.length;
@@ -46,3 +47,5 @@ Teacher.prototype.teach = function(subject){
 var teacher1 = new Teacher();
 teacher1.initialize("Michael",35);
 teacher1.teach("WAP");
+
+
