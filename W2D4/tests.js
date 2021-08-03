@@ -33,10 +33,11 @@ describe("bubbleSort", function(){
 
 //3 testing objects created
 
-// describe("Teacher",function(){
-//     let expected = "Michael is now teaching WAP";
-
-//     it(`The result of calling the teach method of teacher is .... ${expected}`, function(){
-//         assert.equal(output,expected);
-//     });
-// });
+describe("Teacher",function(){
+    let expected = "Michael is now teaching WAP";
+    it(`The result of calling the teach method of teacher is .... ${expected}`, function(){
+        var teacher = new Teacher();
+        teacher.initialize("Michael",35);
+        assert.equal(teacher.teach("WAP"),  `${teacher.name} is now teaching WAP`);
+    });
+});
