@@ -41,6 +41,7 @@ Person.prototype.describe = function(){
 var Teacher = function(){};
 Teacher.prototype= new Person();
 Teacher.prototype.teach = function(subject){
+    console.log(this.name+" is now teaching "+subject);
     return this.name+" is now teaching "+subject;
 }
 
