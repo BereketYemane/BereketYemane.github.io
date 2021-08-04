@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Clean Screen Lab</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="circles">
+
+    </div>
+
+    <form id="start">
+        <div>
+            <label>Width(px)</label>
+            <input type="number" name="width" value="50" id="width" />
+        </div>
+        <div>
+            <label>Growth amount(px)</label>
+            <input type="number" name="grows" value="10" id="grow" />
+        </div>
+        <div>
+            <label>Interval(ms)</label>
+            <input type="number" name="interval" value="250" id="interval" />
+        </div>
+        <div>
+            <label>Number of circles</label>
+            <input type="number" name="nOfCircles" value="12" id="numOfCircles" />
+        </div>
+        <div>
+            <input type="submit" value="Start" id="start" />
+        </div>
+    </form>
+    <div id="validator">
+        <a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W3D2/index.html">
+            <img src="https://manalabs.org/img/w3c-html.png" alt="Validator">
+        </a>
+        <a href="http://mumstudents.org/jshint/check.php?uri=https://bereketyemane.github.io/W3D2/index.js">
+            <img style="width:88px;height: 31px;border:1px solid gray" src="JsHint.png" alt="JavaScript Lint">
+        </a>
+        <a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W3D2/index.css">
+            <img src="https://manalabs.org/img/w3c-css.png" alt="Validator">
+        </a>
+    </div>
+</body>
+
+</html>

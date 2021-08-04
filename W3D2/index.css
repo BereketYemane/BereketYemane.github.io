@@ -1,0 +1,40 @@
+form{
+    display: table;
+    position: fixed;
+    top: 60%;
+    left: 25px;
+    font-size: 25px;
+}
+form > div{
+    display: table-row;
+}
+label,input{
+    display:table-cell;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color:rosybrown;
+    color: cornsilk;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border:none;
+}
+#circles{
+    position:relative;
+    top:200px;
+    margin: auto;
+}
+.circle{
+    position: absolute;
+    border-radius: 50%;
+}
+.circle:hover{
+    opacity: 0.5;
+} 
+#validator{
+    position: fixed;
+    top: 90%;
+    right: 25px;
+}
