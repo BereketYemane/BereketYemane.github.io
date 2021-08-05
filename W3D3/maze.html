@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	CSE 190 M Lab 7 HTML file
+	You should download this file for your lab, but you should not edit its contents.
+	-->
+
+<head>
+	<title>Maze!</title>
+
+	<!-- provided files; do not modify -->
+	<link href="maze.css" type="text/css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+	<!-- your code -->
+	<script src="maze.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<h1>The Amazing Mouse Maze!</h1>
+	<h2 id="status">Click the "S" to begin.</h2>
+
+	<!-- This part of the page represents the maze -->
+	<div id="maze">
+		<div id="start">S</div>
+		<div class="boundary" id="boundary1"></div>
+		<div class="boundary"></div>
+		<div class="boundary"></div>
+		<div class="boundary"></div>
+		<div class="boundary"></div>
+		<div id="end">E</div>
+	</div>
+
+	<p>
+		The object of this game is to guide the mouse cursor through the start area and get to the end area. Be sure to
+		avoid the walls:
+	</p>
+
+	<div class="boundary example"></div>
+
+	<p>
+		Good luck!
+	</p>
+	<div id="validator">
+		<a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W3D3/maze.html">
+			<img src="https://manalabs.org/img/w3c-html.png" alt="Validator">
+		</a>
+		<a href="http://mumstudents.org/jshint/check.php?uri=https://bereketyemane.github.io/W3D2/maze.js">
+			<img style="width:88px;height: 31px;border:1px solid gray" src="JsHint.png" alt="JavaScript Lint">
+		</a>
+		<a href="https://validator.w3.org/nu/?doc=https://bereketyemane.github.io/W3D2/maze.css">
+			<img src="https://manalabs.org/img/w3c-css.png" alt="Validator">
+		</a>
+	</div>
+</body>
+
+</html>

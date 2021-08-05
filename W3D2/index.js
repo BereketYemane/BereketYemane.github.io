@@ -43,6 +43,7 @@ $(document).ready(function () {
                 "click": function () {
                     this.remove();
                 }
+                
             }));
         }
     }
