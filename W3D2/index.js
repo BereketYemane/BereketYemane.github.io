@@ -43,9 +43,10 @@ $(document).ready(function () {
                 "click": function () {
                     this.remove();
                 }
-                
             }));
+            
         }
+        
     }
 
     $("#start").submit(function (event) {
