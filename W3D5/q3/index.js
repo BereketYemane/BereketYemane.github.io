@@ -17,7 +17,6 @@ app.post('/result', (req, res) => {
         query: req.body
     }));
 });
-
 app.get('/output', function (req, res) {
     let { name, age } = req.query;
     res.send(`Welcome ${name} age: ${age}`);
