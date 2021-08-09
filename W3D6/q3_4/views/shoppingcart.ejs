@@ -1,0 +1,11 @@
+<%- include('head.ejs')%>
+    <ul>
+        <% for (let i=0; i < products.length; i++) { %>
+            <li>Name: <%= products[i].name %>,
+                    Price: <%= products[i].price %>
+                        Quantity: <%= products[i].quantity %>
+                            <% } %>
+            </li>
+    </ul>
+
+    <%- include('end.ejs')%>

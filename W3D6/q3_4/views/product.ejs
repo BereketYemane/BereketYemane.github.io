@@ -1,0 +1,14 @@
+<%- include('head.ejs')%>
+    <ul>
+        <li>Name: <%= name %></li>
+        <li>Price: <%= price %></li>
+        <li>Description: <%= description %></li>
+        <li>Id: <%= id %></li>
+    </ul>
+
+    <form action="/addToCart" method="POST">
+        <input type="hidden" value="<%= id %>" name="id"></hidden>
+        <button type="submit">Add to Cart</button>
+    </form>
+
+    <%- include('end.ejs')%>
