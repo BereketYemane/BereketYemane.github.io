@@ -14,7 +14,10 @@ const PRODUCTS = [
     { id: 3, name: 'Mango', description: 'its awesome', price: 25 }
 ]
 
-const CART=[];
+// hardcoded array of products in a cart .....
+const CART=[
+    { name: 'Orange', price: 15, quantity: 2 },
+    { name: 'Grape', price: 11, quantity: 4 }];
 var prodIndex;
 app.get('/product/:id', (req, res) => {
      prodIndex= PRODUCTS.findIndex(pr=>pr.id===parseInt(req.params.id));
@@ -32,6 +35,7 @@ app.get('/product/:id', (req, res) => {
 });
 
 app.post('/addToCart', (req, res) => {
+    //dynamically adding products to cart
     CART.push(PRODUCTS.find(e => e.id === parseInt(req.body.id)));
     res.render("shoppingcart", {
         products: CART
