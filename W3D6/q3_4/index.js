@@ -11,7 +11,9 @@ app.use(express.urlencoded({ extended: false }));
 const PRODUCTS = [
     { id: 1, name: 'Sugar', description: 'its so sweet', price: 10 },
     { id: 2, name: 'Salt', description: 'you might find it sour ', price:20 },
-    { id: 3, name: 'Mango', description: 'its awesome', price: 25 }
+    { id: 3, name: 'Mango', description: 'its awesome', price: 25 },
+    { id:4, name: 'Orange', description:'its nice', price: 15 },
+    {id:5, name: 'Grape', description:'in offer', price: 11}
 ]
 
 // hardcoded array of products in a cart .....
