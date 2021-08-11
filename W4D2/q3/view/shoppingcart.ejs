@@ -1,0 +1,12 @@
+<%- include('head.ejs')%>
+<h1>Shopping cart</h1>
+    <ul>
+        <% for (let key in products) { %>
+            <li>Name: <%= products[key].name %>,
+                    Price: <%= products[key].price %>
+                        Quantity: <%= products[key].quantity %>
+                            <% } %>
+            </li>
+    </ul>
+
+    <%- include('end.ejs')%>  

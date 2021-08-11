@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <title>Party List</title>
+    <meta charset="utif-8">
+</head>
+
+<body>
+    <% if (Object.keys(list).length==0) { %>
+        No people yet!
+        <% } else { %>
+            <ul>
+                <% for (key in list) { %>
+                    <% let person=list[key]; %>
+                        <li>
+                            <%= person.fname + " " + person.lname + ",    " + person.food + ",    " + person.atime %>
+                        </li>
+                        <% } // end for loop %>
+            </ul>
+            <% } // end else %>
+                <a href="/">Add people</a>
+</body>
+</html>
